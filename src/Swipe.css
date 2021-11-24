@@ -1,0 +1,29 @@
+.swipe{
+    position:fixed;
+    bottom:10vh;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+.swipe .MuiIconButton-root{
+    background-color:wheat;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+.thumbsUp{
+    padding: 3vw;
+    color:aquamarine !important;
+
+}
+.thumbsDown{
+    padding: 3vw;
+    color:crimson !important;
+}
+.expand{
+    padding: 3vw;
+    color:darksalmon !important;
+}
+.save{
+    padding: 3vw;
+    color:azure !important;
+}
