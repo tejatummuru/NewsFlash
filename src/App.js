@@ -1,5 +1,4 @@
-import React, {useState, useEffect} from "react";
-import axios from 'axios';
+import React from "react";
 import Header from "./Header";
 import Cards from "./Cards";
 import Swipe from "./Swipe";
@@ -11,21 +10,6 @@ import {
   Route,
 } from 'react-router-dom';
 import './App.css';
-
-  fetch("https://google-news.p.rapidapi.com/v1/top_headlines?lang=en&country=US", {
-    "method": "GET",
-    "headers": {
-      "x-rapidapi-host": "google-news.p.rapidapi.com",
-      "x-rapidapi-key": "9b57b01967msh1a270266eefdbecp14b555jsn2b0cdec2c324"
-    }
-  })
-  .then(response => response.json())
-  .then(response => {
-    console.log(response);
-  })
-  .catch(err => {
-    console.error(err);
-  });
 
 function App() {
    
